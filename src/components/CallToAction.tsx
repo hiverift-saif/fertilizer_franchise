@@ -17,13 +17,13 @@ export function CallToAction() {
               </p>
 
               <div className="space-y-4" id="contact">
-                <div className="flex items-start space-x-3">
+                {/* <div className="flex items-start space-x-3">
                   <Phone className="h-6 w-6 flex-shrink-0 mt-1" />
                   <div>
                     <div>कॉल करें:</div>
                     <a href="tel:01169320272" className="text-white hover:underline">011-69320272</a>
                   </div>
-                </div>
+                </div> */}
 
                 <div className="flex items-start space-x-3">
                   <MapPin className="h-6 w-6 flex-shrink-0 mt-1" />

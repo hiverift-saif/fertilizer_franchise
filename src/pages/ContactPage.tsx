@@ -22,12 +22,12 @@ export function ContactPage() {
   };
 
   const contactInfo = [
-    {
-      icon: Phone,
-      title: 'Phone Number',
-      details: ['011-69320272', '+91 98765 43210'],
-      action: 'tel:01169320272'
-    },
+    // {
+    //   icon: Phone,
+    //   title: 'Phone Number',
+    //   details: ['011-69320272', '+91 98765 43210'],
+    //   action: 'tel:01169320272'
+    // },
     {
       icon: Mail,
       title: 'Email',
@@ -49,12 +49,12 @@ export function ContactPage() {
   ];
 
   const offices = [
-    {
-      region: 'North India',
-      address: 'A-10, Sector 22, Noida, Uttar Pradesh - 201301',
-      phone: '011-69320272',
-      email: '  support@fertilizerfranchise.co.in'
-    },
+    // {
+    //   region: 'North India',
+    //   address: 'A-10, Sector 22, Noida, Uttar Pradesh - 201301',
+    //   phone: '011-69320272',
+    //   email: '  support@fertilizerfranchise.co.in'
+    // },
     {
       region: 'East India',
       address: 'Rajendra Nagar, Patna, Bihar - 800016',
@@ -65,13 +65,13 @@ export function ContactPage() {
       region: 'West India',
       address: 'C-Scheme, Jaipur, Rajasthan - 302001',
       phone: '0141-2345678',
-      email: 'west@fertilizeragency.in'
+      email: 'support@fertilizerfranchise.co.in'
     },
     {
       region: 'South India',
       address: 'Jubilee Hills, Hyderabad, Telangana - 500033',
       phone: '040-2345678',
-      email: '  support@fertilizerfranchise.co.inn'
+      email: '  support@fertilizerfranchise.co.in'
     }
   ];
 
@@ -255,11 +255,11 @@ export function ContactPage() {
                     href="tel:01169320272"
                     className="flex items-center space-x-3 p-3 bg-green-50 rounded-lg hover:bg-green-100 transition-colors"
                   >
-                    <Phone className="h-5 w-5 text-green-600" />
+                    {/* <Phone className="h-5 w-5 text-green-600" />
                     <div>
                       <div className="text-gray-800">Call Now</div>
                       <div className="text-green-600">011-69320272</div>
-                    </div>
+                    </div> */}
                   </a>
                   <a
                     href="mailto:info@fertilizeragency.in"

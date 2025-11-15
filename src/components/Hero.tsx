@@ -20,11 +20,11 @@ export function Hero() {
             <p className="text-gray-700">
               भारत के अग्रणी उर्वरक वितरक नेटवर्क से जुड़ें और किसानों के साथ कृषि विकास में भागीदार बनें।
             </p>
-
+{/* 
             <div className="flex items-center space-x-2 text-green-700">
               <Phone className="h-5 w-5" />
               <span>Helpline: 011-69320272</span>
-            </div>
+            </div> */}
 
             <div className="flex flex-wrap gap-4">
               <Button size="lg" className="bg-green-600 hover:bg-green-700">

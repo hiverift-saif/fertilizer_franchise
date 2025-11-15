@@ -87,10 +87,10 @@ export function HomePage() {
                 </p>
               </div>
 
-              <div className="flex items-center space-x-2 text-green-700 text-sm sm:text-base">
+              {/* <div className="flex items-center space-x-2 text-green-700 text-sm sm:text-base">
                 <Phone className="h-4 w-4 sm:h-5 sm:w-5" />
                 <span>Helpline: 011-69320272</span>
-              </div>
+              </div> */}
 
               <div className="flex flex-col sm:flex-row flex-wrap gap-3 sm:gap-4">
                 <Link to="/dealership">

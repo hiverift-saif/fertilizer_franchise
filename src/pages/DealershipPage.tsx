@@ -94,7 +94,7 @@ export function DealershipPage() {
             </p>
             <div className="flex items-center justify-center space-x-2 text-sm sm:text-base">
               <Phone className="h-4 w-4 sm:h-5 sm:w-5" />
-              <span>Contact Us Now: 011-69320272</span>
+       
             </div>
           </div>
         </div>
@@ -351,9 +351,9 @@ export function DealershipPage() {
               Submit Application
             </Button>
 
-            <p className="text-center text-gray-500">
+            {/* <p className="text-center text-gray-500">
               Or call us: <a href="tel:01169320272" className="text-green-600 hover:underline">011-69320272</a>
-            </p>
+            </p> */}
           </form>
         </div>
       </section>
