@@ -54,13 +54,13 @@ export function Footer() {
           <div className="space-y-3 sm:space-y-4">
             <h3 className="text-white text-base sm:text-lg">Contact</h3>
             <ul className="space-y-2 sm:space-y-3 text-sm sm:text-base">
-              <li className="flex items-start space-x-2">
+              {/* <li className="flex items-start space-x-2">
                 <Phone className="h-4 w-4 sm:h-5 sm:w-5 flex-shrink-0 mt-0.5" />
                 <a href="tel:01169320272" className="hover:text-green-400 transition-colors">011-69320272</a>
-              </li>
+              </li> */}
               <li className="flex items-start space-x-2">
                 <Mail className="h-4 w-4 sm:h-5 sm:w-5 flex-shrink-0 mt-0.5" />
-                <a href="mailto:info@fertilizeragency.in" className="hover:text-green-400 transition-colors break-all">info@fertilizeragency.in</a>
+                <a href="mailto:support@fertilizerfranchise.co.in" className="hover:text-green-400 transition-colors break-all">support@fertilizerfranchise.co.in</a>
               </li>
               <li className="flex items-start space-x-2">
                 <MapPin className="h-4 w-4 sm:h-5 sm:w-5 flex-shrink-0 mt-0.5" />

@@ -78,11 +78,8 @@ export function DealershipPage() {
   ];
 
   const investmentDetails = [
-    { category: 'Initial Stock', amount: '₹1.5 - 3 lakhs' },
-    { category: 'Shop Setup', amount: '₹50,000 - 1 lakh' },
-    { category: 'Registration Fee', amount: '₹10,000 - 25,000' },
-    { category: 'Other Expenses', amount: '₹25,000 - 50,000' },
-    { category: 'Total Investment', amount: '₹2 - 5 lakhs', highlighted: true }
+    { category: 'investment', amount: '₹25000 -- 1 lakhs' },
+
   ];
 
   return (
@@ -263,15 +260,48 @@ export function DealershipPage() {
                   <SelectTrigger>
                     <SelectValue placeholder="Select state" />
                   </SelectTrigger>
-                  <SelectContent>
-                    <SelectItem value="UP">Uttar Pradesh</SelectItem>
-                    <SelectItem value="Bihar">Bihar</SelectItem>
-                    <SelectItem value="MP">Madhya Pradesh</SelectItem>
-                    <SelectItem value="Punjab">Punjab</SelectItem>
-                    <SelectItem value="Haryana">Haryana</SelectItem>
-                    <SelectItem value="Rajasthan">Rajasthan</SelectItem>
-                    <SelectItem value="Other">Other</SelectItem>
-                  </SelectContent>
+            <SelectContent>
+  <SelectItem value="Andhra Pradesh">Andhra Pradesh</SelectItem>
+  <SelectItem value="Arunachal Pradesh">Arunachal Pradesh</SelectItem>
+  <SelectItem value="Assam">Assam</SelectItem>
+  <SelectItem value="Bihar">Bihar</SelectItem>
+  <SelectItem value="Chhattisgarh">Chhattisgarh</SelectItem>
+  <SelectItem value="Goa">Goa</SelectItem>
+  <SelectItem value="Gujarat">Gujarat</SelectItem>
+  <SelectItem value="Haryana">Haryana</SelectItem>
+  <SelectItem value="Himachal Pradesh">Himachal Pradesh</SelectItem>
+  <SelectItem value="Jharkhand">Jharkhand</SelectItem>
+  <SelectItem value="Karnataka">Karnataka</SelectItem>
+  <SelectItem value="Kerala">Kerala</SelectItem>
+  <SelectItem value="Madhya Pradesh">Madhya Pradesh</SelectItem>
+  <SelectItem value="Maharashtra">Maharashtra</SelectItem>
+  <SelectItem value="Manipur">Manipur</SelectItem>
+  <SelectItem value="Meghalaya">Meghalaya</SelectItem>
+  <SelectItem value="Mizoram">Mizoram</SelectItem>
+  <SelectItem value="Nagaland">Nagaland</SelectItem>
+  <SelectItem value="Odisha">Odisha</SelectItem>
+  <SelectItem value="Punjab">Punjab</SelectItem>
+  <SelectItem value="Rajasthan">Rajasthan</SelectItem>
+  <SelectItem value="Sikkim">Sikkim</SelectItem>
+  <SelectItem value="Tamil Nadu">Tamil Nadu</SelectItem>
+  <SelectItem value="Telangana">Telangana</SelectItem>
+  <SelectItem value="Tripura">Tripura</SelectItem>
+  <SelectItem value="Uttar Pradesh">Uttar Pradesh</SelectItem>
+  <SelectItem value="Uttarakhand">Uttarakhand</SelectItem>
+  <SelectItem value="West Bengal">West Bengal</SelectItem>
+
+  {/* Union Territories */}
+  <SelectItem value="Andaman and Nicobar Islands">Andaman and Nicobar Islands</SelectItem>
+  <SelectItem value="Chandigarh">Chandigarh</SelectItem>
+  <SelectItem value="Dadra and Nagar Haveli and Daman and Diu">Dadra and Nagar Haveli and Daman and Diu</SelectItem>
+  <SelectItem value="Delhi">Delhi</SelectItem>
+  <SelectItem value="Jammu and Kashmir">Jammu and Kashmir</SelectItem>
+  <SelectItem value="Ladakh">Ladakh</SelectItem>
+  <SelectItem value="Lakshadweep">Lakshadweep</SelectItem>
+  <SelectItem value="Puducherry">Puducherry</SelectItem>
+  <SelectItem value="Other">Other</SelectItem>
+</SelectContent>
+
                 </Select>
               </div>
             </div>
@@ -299,9 +329,8 @@ export function DealershipPage() {
                     <SelectValue placeholder="Select investment" />
                   </SelectTrigger>
                   <SelectContent>
-                    <SelectItem value="2-3">₹2-3 lakhs</SelectItem>
-                    <SelectItem value="3-5">₹3-5 lakhs</SelectItem>
-                    <SelectItem value="5+">Above ₹5 lakhs</SelectItem>
+                    <SelectItem value="2-3">₹25000 to 1lakhs</SelectItem>
+                    
                   </SelectContent>
                 </Select>
               </div>

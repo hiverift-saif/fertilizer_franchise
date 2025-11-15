@@ -32,7 +32,7 @@ export function ContactPage() {
       icon: Mail,
       title: 'Email',
       details: ['info@fertilizeragency.in', 'support@fertilizeragency.in'],
-      action: 'mailto:info@fertilizeragency.in'
+      action: 'mailto:support@fertilizerfranchise.co.in'
     },
     {
       icon: MapPin,
@@ -53,13 +53,13 @@ export function ContactPage() {
       region: 'North India',
       address: 'A-10, Sector 22, Noida, Uttar Pradesh - 201301',
       phone: '011-69320272',
-      email: 'north@fertilizeragency.in'
+      email: '  support@fertilizerfranchise.co.in'
     },
     {
       region: 'East India',
       address: 'Rajendra Nagar, Patna, Bihar - 800016',
       phone: '0612-2345678',
-      email: 'east@fertilizeragency.in'
+      email: '  support@fertilizerfranchise.co.in'
     },
     {
       region: 'West India',
@@ -71,7 +71,7 @@ export function ContactPage() {
       region: 'South India',
       address: 'Jubilee Hills, Hyderabad, Telangana - 500033',
       phone: '040-2345678',
-      email: 'south@fertilizeragency.in'
+      email: '  support@fertilizerfranchise.co.inn'
     }
   ];
 
@@ -193,7 +193,7 @@ export function ContactPage() {
 
                 <div className="space-y-2">
                   <Label htmlFor="subject">Subject</Label>
-                  <Select value={formData.subject} onValueChange={(value) => setFormData({ ...formData, subject: value })}>
+                  <Select value={formData.subject} onValueChange={(value: string) => setFormData({ ...formData, subject: value })}>
                     <SelectTrigger>
                       <SelectValue placeholder="Select subject" />
                     </SelectTrigger>
@@ -268,7 +268,7 @@ export function ContactPage() {
                     <Mail className="h-5 w-5 text-green-600" />
                     <div>
                       <div className="text-gray-800">Send Email</div>
-                      <div className="text-green-600">info@fertilizeragency.in</div>
+                      <div className="text-green-600">support@fertilizerfranchise.co.in</div>
                     </div>
                   </a>
                 </div>
