@@ -58,19 +58,16 @@ export function ContactPage() {
     {
       region: 'East India',
       address: 'Rajendra Nagar, Patna, Bihar - 800016',
-      phone: '0612-2345678',
       email: '  support@fertilizerfranchise.co.in'
     },
     {
       region: 'West India',
       address: 'C-Scheme, Jaipur, Rajasthan - 302001',
-      phone: '0141-2345678',
       email: 'support@fertilizerfranchise.co.in'
     },
     {
       region: 'South India',
       address: 'Jubilee Hills, Hyderabad, Telangana - 500033',
-      phone: '040-2345678',
       email: '  support@fertilizerfranchise.co.in'
     }
   ];
@@ -298,7 +295,7 @@ export function ContactPage() {
                     <span>{office.address}</span>
                   </p>
                   <p className="flex items-center space-x-2">
-                    <Phone className="h-5 w-5 text-green-600" />
+              
                     <a href={`tel:${office.phone}`} className="hover:text-green-600">
                       {office.phone}
                     </a>
