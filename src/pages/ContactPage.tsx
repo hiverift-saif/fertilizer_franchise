@@ -31,7 +31,7 @@ export function ContactPage() {
     {
       icon: Mail,
       title: 'Email',
-      details: ['info@fertilizeragency.in', 'support@fertilizeragency.in'],
+      details: ['info@fertilizerfranchise.co.in', 'support@fertilizerfranchise.co.in'],
       action: 'mailto:support@fertilizerfranchise.co.in'
     },
     {
